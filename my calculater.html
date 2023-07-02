@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="my calculater.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"></link>
+
+</head>
+<body>
+    <h1>Calculator using html, css and javascript</h1> 
+    <div class="container">
+        
+        <input class="textarea" type="text" id="output">
+
+        <div class="firstrow">
+        <div id="cal" inputmode="button" onclick="clr('');">C</div>
+
+        <div id="icon">
+        <i class="fa-solid fa-delete-left" inputmode="button" onclick="del();"></i>
+    </div>
+
+    <div id="slash" inputmode="button" onclick="display('/');">/</div>
+    </div>
+
+    <div class="secondrow">
+    <div id="seven" inputmode="button" onclick="display('7');">7</div>
+    <div id="eight" inputmode="button" onclick="display('8');">8</div>
+    <div id="nine"   inputmode="button" onclick="display('9');">9</div>
+    <div id="cross"  inputmode="button" onclick="display('*');">x</div>
+    </div>
+
+    <div class="thirdrow">
+    <div id="four" inputmode="button" onclick="display('4');">4</div>
+    <div id="five" inputmode="button" onclick="display('5');">5</div>
+    <div id="six"  inputmode="button" onclick="display('6');">6</div>
+    <div id="plus" inputmode="button" onclick="display('+');">+</div>
+    </div>
+
+    <div class="fourthrow">
+    <div id="one" inputmode="button" onclick="display('1');">1</div>
+    <div id="two" inputmode="button" onclick="display('2');">2</div>
+    <div id="three" inputmode="button" onclick="display('3');">3</div>
+    <div id="minus" inputmode="button" onclick="display('-');">-</div>
+    </div>
+
+    <div class="fifthrow">
+    <div id="zero" inputmode="button" onclick="display('0');">0</div>
+    <div id="dot" inputmode="button" onclick="display('.');">.</div>
+    <div id="equal" inputmode="button" onclick="result('=');">=</div>
+    <div id="per" inputmode="button" onclick="display('%');">%</div>
+</div>
+    </div>
+
+  <script src="my calculater.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,372 @@
+body{
+    background: #366981;
+    color: #fff;
+}
+h1{
+    text-align: center;
+}
+.container{
+    
+    width: 320px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    top: 200px;
+}
+
+
+.textarea{
+    width: 300px;
+    text-align: end;
+    height: auto;
+    font-size: 25px;
+    color: #000;
+}
+
+.firstrow{
+    display: flex;
+}
+
+#cal{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px ;
+}
+
+#cal:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#icon{
+    width: 69px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+
+#icon:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#slash{
+    width: 69px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 0px 0px 0px;
+}
+
+#slash:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.secondrow{
+    display:flex;
+}
+
+#seven{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+
+#seven:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#eight{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+
+#eight:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#nine{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+#nine:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#cross{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 0px 0px 0px;
+}
+#cross:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.thirdrow{
+    display: flex;
+}
+
+#four{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+#four:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#five{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+#five:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#six{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+#six:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#plus{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 0px 0px 0px;
+}
+#plus:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.fourthrow{
+    display: flex;
+}
+
+#one{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+#one:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#two{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+#two:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#three{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+#three:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#minus{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 0px 0px 0px;
+}
+#minus:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.fifthrow{
+    display: flex;
+}
+
+#zero{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+#zero:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#dot{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+#dot:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#equal{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 8px 0px 0px;
+}
+#equal:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#per{
+    width: 69.2px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 35px;
+    background-color: black;
+    color: #fff;
+    margin:8px 0px 0px 0px;
+   
+}
+#per:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
